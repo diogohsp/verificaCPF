@@ -1,5 +1,6 @@
 html{
     flex-wrap: none;
+    background-color: #b1e1e9;
 }
 
 .container{
@@ -7,4 +8,33 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cpf{
+    border-radius: 10px;
+    width: 20vw;
+    height: 4vh;
+    margin-bottom: 1vh;
+    background-color:#ffffff;
+    border-color: #000000;
+}
+
+.send{
+    border-radius: 10px;
+    border-color: #000000;
+    width: 15vw;
+    height: 4vh;
+}
+
+.send:hover{
+    background-color: rgb(84, 84, 228);
 }
